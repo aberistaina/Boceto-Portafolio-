@@ -1,0 +1,103 @@
+.contendor {
+    margin: 0px;
+}
+
+body {
+    background-image: url("/assets/img/fondo.jpg");
+    background-size: cover;
+}
+
+.menu{
+    background-color: black;
+    height: 90px;
+
+
+}
+
+.menutext{
+    color: white;
+}
+
+.linkedin {
+    position: absolute;
+    display: flex;
+    right: 100px;  
+    top: 38px;
+    color: white;
+}
+
+.facebook {
+    position: absolute;
+    display: flex;
+    right: 58px;  
+    top: 38px;
+    color: white;
+
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.instagram {
+        position: absolute;
+    display: flex;
+    right: 150px;  
+    top: 42px;
+    color: white;
+}
+
+.twitter {
+    position: absolute;
+display: flex;
+right: 200px;  
+top: 40px;
+color: white;
+}
+
+
+ @media (max-width: 770px) {
+    .instagram, .facebook, .linkedin, .twitter {
+        display: none;
+    }
+    .menu{
+        height: 150px;
+        
+    }
+
+
+
+
+    .sobremi {
+    position: absolute;
+    right: 100px;  
+    top: 60px;
+    color: white;
+
+    
+    }
+
+
+    .proyectos {
+    position: absolute;
+    right: 66px;  
+    top: 100px;
+    bottom: 100px;
+    color: white;
+    }
+
+
+    .contacto {
+    position: absolute;
+    right: 100px;  
+    bottom: 25px;
+    top: 120p;
+    color: white;
+    }
+
+    .navbar-toggler{
+        margin-bottom: 10px;
+
+    }
+} 
+
